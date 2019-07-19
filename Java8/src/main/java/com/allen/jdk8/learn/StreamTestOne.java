@@ -25,5 +25,17 @@ public class StreamTestOne {
 
         integerList.forEach(integer -> System.out.println(integer));
 
-    }
-}
+        //Runnable()
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("start thread");
+            }
+        }).start();
+
+        //Lambda表达式
+        new Thread(() ->{
+            System.out.println("start thread for lambda");
+        }).start();
+
+    }}
