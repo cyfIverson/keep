@@ -2,7 +2,6 @@ package com.allen.keep.concurrent.threadpool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
 
 /**
  * @descript 线程池种类
