@@ -21,5 +21,6 @@ public class TestForAnnBean {
             System.out.println(s);
         }
 
+        ((AnnotationConfigApplicationContext) applicationContext).close();
     }
 }
