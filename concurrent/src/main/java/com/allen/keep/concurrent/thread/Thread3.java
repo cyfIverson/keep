@@ -18,7 +18,7 @@ public class Thread3 implements Callable {
     }
 
     @Override
-    public Object call() throws Exception {
+    public Object call(){
         System.out.println(Thread.currentThread().getName()+"线程开始运行");
 
         for (int i = 0; i < 5; i++) {
